@@ -1,0 +1,82 @@
+body{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    background-color: rgb(187, 248, 248);
+}
+
+p {
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+button{
+    width: 10%;
+    height: 10%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(187, 248, 248);
+}
+
+.grid{
+    background-color: rgb(119, 119, 124);
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    margin-left: 39%;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+
+.grid div{
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+}
+
+.checked {
+    background-color: rgb(59, 59, 61);
+    color: black;
+    align-items: center;
+}
+
+
+.bomb{
+     background-color: orange; 
+
+}
+
+
+.one {
+    color: red;
+}
+
+.two {
+    color: orange;
+}
+
+.three {
+
+    color: yellow;
+}
+
+.four {
+    color: greenyellow;
+}
+
+.five {
+    color: green;
+}
+
+.six {
+    color: white;
+}
+  
